@@ -2,6 +2,7 @@ html, body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+
 }
 body {
 	min-height: 100%;
@@ -9,13 +10,34 @@ body {
 	padding: 0 10px;
 	margin: 0 auto;
   position: relative;
+
 }
-div#center {
+div#contenu {
 	/* Pour éviter la superposition du pied de page et du contenu : */
 	padding-bottom: 50px;
+	font-size: 12px;
+	min-height: 66%;
+	border:0.5px solid black;
+
 }
-div#footer {
-	position: absolute;
-	width: 750px;
-	left: 10px;
+footer {
+	font-size: 12px;
+	background-color: #727272;
+	padding: 8px;
+}
+header{
+	font-size: 12px;
+	background-color: #727272;
+	padding: 8px;
+}
+table{
+	margin: 10px
+}
+
+p{
+	font-weight:bold;
+}
+
+td{
+	padding: 11px;
 }

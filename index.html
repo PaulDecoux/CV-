@@ -1,51 +1,102 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Création d'un design à 2 colonnes - 1. Le code XHTML</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-	</head>
-	<body>
-		<div id="header">
-			<h1>2cols4u</h1>
-		</div>
-		<div id="center">
-			<div id="content">
-				<h2>Etape 1 : le code XHTML</h2>
-				<p>Vous trouverez ci-dessous le code de la page HTML que vous êtes en train de lire. Et oui, malgré l'absence de feuille de style, la page est déjà lisible ! Les liens fonctionnent, les titres sont mis en évidence, les listes structurées, etc.</p>
-				<p>La page est divisée horizontalement en trois parties distinctes :</p>
-				<ol>
-					<li>l'en-tête (identifié par "<em>header</em>"), destiné à accueillir la bannière et éventuellement une devise ou slogan.</li>
-					<li>la partie centrale ("<em>center</em>", bien vu !) contiendra les deux colonnes qui nous intéressent. Elle comprend donc elle-même 2 zones distinctes (les divisions <em>sidebar</em> et <em>content</em>).</li>
-					<li>le pied de page ("<em>footer</em>") comprend diverses informations que l'on souhaite afficher discrètement sur toutes les pages, en général des mentions de copyright ou les coordonnées & références de la société ...</li>
-				</ol>
-			</div><!-- #content -->
-			<div id="sidebar">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
 
-				<h2>Navigation</h2>
-				<ul id="menu">
-					<li><a href="#" title="Introduction">Introduction</a></li>
-					<li><a href="#" title="Première étape : le code (X)HTML">Etape 1</a></li>
-					<li><a href="#" title="Deuxième étape : le positionnement">Etape 2</a></li>
-					<li><a href="#" title="Troisiéme étape : couleurs & images de fond">Etape 3</a></li>
-					<li><a href="#" title="Quatrième étape : le menu">Etape 4</a></li>
-					<li><a href="#" title="Cinquième étape : titres & liens">Etape 5</a></li>
-					<li><a href="#" title="Sixième étape : ajustements pour IE">Etape 6</a></li>
-				</ul>
 
-				<h2>Brèves</h2>
-				<p>Pourquoi j'aime les standards du W3C ? Pour <a href="http://openweb.eu.org/articles/pourquoi_standards/" title="Openweb : Pourquoi les standards du W3C">ça</a></p>
-				<h2>Liens</h2>
 
-				<ul>
-					<li><a href="http://www.alsacreations.com" title="AlsacréationS apprendre XHTML, les CSS et les standards W3C de la conception Web">Alsacréations</a></li>
-				</ul>
-			</div> <!-- #sidebar -->
-		</div><!-- #center -->
 
-		<div id="footer">
-			<p>Je suis un pied de page. Et comme disait Groucho Marx, si vous n'aimez pas mes opinions, j'en ai d'autres.</p>
-		</div><!-- #footer -->
-	</body>
 
+  <div id="contenu">
+    <header>
+      <p>Paul Decoux</p>
+      <p>27 ans-Permis B</p>
+      <p>207 rue Pierre Mauroy</p>
+      <p>59000 Lille</p>
+      <p>E-mail: decouxpaul0@gmail.com</p>
+    </header>
+
+    <nav>
+      <p>Experience professionelles</p>
+      <table>
+        <tr>
+          <td>Mars 17-Mai 17</td>
+          <td>Imprimerie AG2R La Mondiale, Mons-en-Baroeul
+              > Opérateur de façonnage</td>
+        </tr>
+
+        <tr>
+          <td>Nov.16-Janv.17</td>
+          <td>Drake Comteq FRANCE, Billy-Berclau
+              > Opérateur de fibres optiques</td>
+        </tr>
+
+        <tr>
+          <td>Oct.16</td>
+          <td>Reprocolor, Hallenes-les-Haubourdin
+              > Opérateur de façonnage</td>
+        </tr>
+        <tr>
+          <td>Sept.2016</td>
+          <td>Université Catholique de Lille
+              > Opérateur numérique</td>
+        </tr>
+        <tr>
+          <td>2013-2016</td>
+          <td>Imprimerie de La Voix du Nord, Marcq-en-Baroeul
+              > Rotativiste</td>
+        </tr>
+        <tr>
+          <td>2007-2013</td>
+          <td>Centre National de la Fonction Publique Territoriale, Lille
+              > Apprenti en imprimerie</td>
+        </tr>
+
+
+      </table>
+    </nav>
+<hr>
+    <article>
+      <p>Formation</p>
+      <table>
+        <tr>
+          <td>2013</td>
+          <td>BTS-Communication et Industrie Graphique (Niveaux)
+              Lycée César Baggio, LILLE</td>
+        </tr>
+        <tr>
+          <td>2011</td>
+          <td>BAC professionnel-Metier de la Communication et des Industries Graphiques
+              Lycée Cesar Baggio, LILLE</td>
+        </tr>
+        <tr>
+          <td>2009</td>
+          <td>BEP-Metier de la Communication et des Industries Graphiques
+              Lycée Cesar Baggio, LILLE</td>
+        </tr>
+        <tr>
+          <td>Langues: </td>
+          <td>Français, Anglais</td>
+        </tr>
+
+      </table>
+    </article>
+
+
+    <footer>
+      <p>CENTRES D'INTERETS</p>
+      <p>Tennis, Football, Course à pied, cinema, musique</p>
+    </footer>
+
+  </div>
+
+
+
+
+</body>
 </html>
