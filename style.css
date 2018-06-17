@@ -1,0 +1,21 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-height: 100%;
+  width: 750px;
+	padding: 0 10px;
+	margin: 0 auto;
+  position: relative;
+}
+div#center {
+	/* Pour éviter la superposition du pied de page et du contenu : */
+	padding-bottom: 50px;
+}
+div#footer {
+	position: absolute;
+	width: 750px;
+	left: 10px;
+}
