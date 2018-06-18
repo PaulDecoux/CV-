@@ -14,7 +14,7 @@ body {
 }
 div#contenu {
 	/* Pour éviter la superposition du pied de page et du contenu : */
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 	font-size: 12px;
 	min-height: 66%;
 	border:0.5px solid black;
@@ -35,9 +35,18 @@ table{
 }
 
 p{
-	font-weight:bold;
+
+
 }
 
 td{
 	padding: 11px;
+}
+h1 {
+	text-align: center;
+}
+
+header > p{
+	font-weight: bold;
+	text-align: center;
 }
